@@ -1,0 +1,22 @@
+{
+  "name": "mesenger",
+  "version": "1.0.0",
+  "description": "kichyr mesenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kichyr/trackFrontend.git"
+  },
+  "keywords": [
+    "kichyr"
+  ],
+  "author": "kichyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kichyr/trackFrontend/issues"
+  },
+  "homepage": "https://github.com/kichyr/trackFrontend#readme"
+}
