@@ -18,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/kichyr/trackFrontend/issues"
   },
-  "homepage": "https://github.com/kichyr/trackFrontend#readme"
+  "homepage": "https://github.com/kichyr/trackFrontend#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack": "^4.20.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0"
+  }
 }
