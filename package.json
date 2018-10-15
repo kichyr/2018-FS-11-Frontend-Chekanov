@@ -4,7 +4,9 @@
   "description": "kichyr mesenger",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "make": "npm run build && npm run lint",
+    "lint": "./node_modules/.bin/eslint ./src --fix"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,8 @@
     "eslint": "^5.6.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
-    "webpack": "^4.20.2"
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
   },
   "dependencies": {
     "ast-types": "^0.11.5",
